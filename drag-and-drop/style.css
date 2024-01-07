@@ -1,5 +1,5 @@
 body {
-  background: #f9f9f9;
+  background: #0f0e17;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 [data-draggable="target"] {
@@ -9,7 +9,7 @@ body {
   height: 374px;
   margin: 10px;
   padding:10px;
-  border: 2px solid rgb(17, 38, 230);
+  border: 2px solid black;
   border-radius: 8px;
   background: rgb(224, 224, 224);
   color: rgb(240, 240, 240);
@@ -21,7 +21,7 @@ body {
   border-radius: 5px;
   width: 80%;
   height: 30px;
-  background: rgb(41, 41, 251);
+  background: #ff8906;
   display: flex;
   justify-content: center;
   align-items: center;
