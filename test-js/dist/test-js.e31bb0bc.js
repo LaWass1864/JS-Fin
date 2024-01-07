@@ -118,15 +118,14 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"add.js":[function(require,module,exports) {
-"use strict";
+// export function addNum(a, b) {
+//     return a + b;
+// }
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.addNum = addNum;
 function addNum(a, b) {
-  return a + b;
+  return a * b;
 }
+module.exports = addNum;
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
